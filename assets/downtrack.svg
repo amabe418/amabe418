@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="110" viewBox="0 0 400 110" role="img" aria-label="Animated equipment status monitor"><title>DownTrack</title><rect width="400" height="110" rx="10" fill="#0b0f17"/>
+<path d="M20 52 H140 L156 24 L172 78 L188 36 L200 52 H380" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="380 380" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="380;-380" dur="2.8s" repeatCount="indefinite"/></path>
+<g fill="#30363d"><rect x="20" y="88" width="80" height="7" rx="3.5"/><rect x="110" y="88" width="80" height="7" rx="3.5"/><rect x="200" y="88" width="80" height="7" rx="3.5"/><rect x="290" y="88" width="90" height="7" rx="3.5"/></g>
+<rect x="200" y="88" width="80" height="7" rx="3.5" fill="#a78bfa"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></rect>
+<text x="22" y="20" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10">equipment status</text>
+</svg>
