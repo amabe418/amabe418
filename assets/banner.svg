@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240" role="img" aria-label="Hi, I'm Amalia. Software Engineer in Havana, Cuba. Backend, AI and Machine Learning, Optimization.">
+  <title>Hi, I'm Amalia</title>
+  <defs>
+    <clipPath id="card"><rect width="840" height="240" rx="16"/></clipPath>
+    <clipPath id="typing">
+      <rect x="172" y="152" width="500" height="34">
+        <animate attributeName="width" values="0;500;500;0" keyTimes="0;0.45;0.85;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="840" height="240" fill="#131a2b"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-210 0" dur="6s" repeatCount="indefinite"/>
+      <path d="M0 200 Q52.5 170 105 200 T210 200 T315 200 T420 200 T525 200 T630 200 T735 200 T840 200 T945 200 T1050 200 V240 H0 Z" fill="#a78bfa" fill-opacity="0.18"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="-210 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+      <path d="M0 212 Q52.5 190 105 212 T210 212 T315 212 T420 212 T525 212 T630 212 T735 212 T840 212 T945 212 T1050 212 V240 H0 Z" fill="#a78bfa" fill-opacity="0.28"/>
+    </g>
+    <text x="420" y="92" text-anchor="middle" fill="#e6edf3" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-1">Hi, I'm Amalia</text>
+    <text x="420" y="128" text-anchor="middle" fill="#c9d1d9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600">Software Engineer · Havana, Cuba</text>
+    <g clip-path="url(#typing)">
+      <text x="420" y="175" text-anchor="middle" fill="#a78bfa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18">Backend · AI &amp; Machine Learning · Optimization</text>
+    </g>
+    <rect x="672" y="158" width="2" height="22" fill="#a78bfa">
+      <animate attributeName="x" values="172;672;672;172" keyTimes="0;0.45;0.85;1" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

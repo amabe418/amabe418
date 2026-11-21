@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="110" viewBox="0 0 400 110" role="img" aria-label="Animated convergence curves: transfer learning converges faster than random search"><title>MetaLearning</title><rect width="400" height="110" rx="10" fill="#0b0f17"/>
+<g stroke="#21262d"><line x1="20" y1="30" x2="380" y2="30"/><line x1="20" y1="60" x2="380" y2="60"/><line x1="20" y1="90" x2="380" y2="90"/></g>
+<path d="M20 92 C80 85 115 66 170 61 S300 53 380 51" fill="none" stroke="#6e7681" stroke-width="2" stroke-dasharray="420" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="420;0;0" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/></path>
+<path d="M20 78 C70 48 115 36 170 32 S300 25 380 23" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="420" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" values="420;0;0" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/></path>
+<circle cx="380" cy="23" r="4" fill="#a78bfa"><animate attributeName="opacity" values="0;0;1;0.3;1" keyTimes="0;0.5;0.6;0.8;1" dur="5s" repeatCount="indefinite"/></circle>
+<text x="22" y="20" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10">FSBO vs random search</text>
+</svg>
